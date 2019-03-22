@@ -6,7 +6,6 @@
 	<title>Liste de prénom</title>
 </head>
 
-
 <body>
 	<header>
 		<img src="./guada.jpg">
@@ -16,18 +15,30 @@
 			<a href="#">C comme Cabeille</a>
 		</nav>
 	</header>
-	<div id="nouveauPrenom">
-		Quel prénom voulez-vous ajouter ?
-		<input id="saisiePrenom"></input>
-		<button id="ajoutPrenom">Ajouter le prénom</button>
-	</div>
-	<ul id="listePrenoms">
+	<ul>
 		<li>Damien</li>
-		<li>Chaima</li>
+		<li>Céline</li>
 		<li>Grégoire</li>
 		<li>Audrey</li>
+		 
 	</ul>
-	<script src="index.js"></script>
+	
+	<form action="/ma-page-de-traitement" method="post">
+    <div>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="mail">e-mail :</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="msg">Message :</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+	</form>
+	
+	
 </body>
 
 </html>

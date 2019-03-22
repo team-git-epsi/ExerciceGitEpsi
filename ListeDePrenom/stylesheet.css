@@ -1,0 +1,15 @@
+body {
+	background-color: lightgrey;
+	color: white;
+}
+
+header nav a {
+	background-color: white;
+	padding: 20px;
+	border-radius: 21px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+}

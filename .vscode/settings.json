@@ -1,0 +1,7 @@
+{
+    "githubPullRequests.hosts": [{
+        "host": "https://team-git-epsi.github.io/ExerciceGitEpsi/"
+    }],
+
+    "githubPullRequests.remotes": ["https://team-git-epsi.github.io/ExerciceGitEpsi/"],
+}
